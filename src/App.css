@@ -33,12 +33,6 @@ body {
   margin: 10px;
 }
 
-.input {
-  margin: 10px;
-  max-width: 200px;
-  padding: 5px;
-}
-
 button {
   cursor: pointer;
   padding: 4px;
@@ -51,8 +45,35 @@ button {
   align-items: center;
 }
 
+input {
+  margin: 10px;
+  padding: 6px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .catImage {
   height: 300px;
   max-width: 340px;
   margin: 10px;
+  position: relative;
+}
+
+.top {
+  position: absolute;
+  z-index: 100;
+  top: 250px;
+  font-size: 35px;
+  color: white;
+  font-weight: 900;
+}
+
+.bottom {
+  position: absolute;
+  z-index: 100;
+  top: 450px;
+  font-size: 35px;
+  color: white;
+  font-weight: 900;
 }
